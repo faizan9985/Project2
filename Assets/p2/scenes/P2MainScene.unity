@@ -19388,21 +19388,93 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 59759f338f539436bacd51e24f903a76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _objectDectectionScript: {fileID: 0}
-  _utilitiesP2Script: {fileID: 0}
-  _drawUIScript: {fileID: 0}
-  _detectableObjects: []
+  _objectDectectionScript: {fileID: 1813937149}
+  _utilitiesP2Script: {fileID: 1813937150}
+  _drawUIScript: {fileID: 1813937148}
+  _detectableObjects:
+  - CategoryName: backpack
+    CategoryImage: {fileID: 21300000, guid: 0948a2cb5e787b942a5c474440832ab6, type: 3}
+    OX: 
+    reactionPanel: {fileID: 396274601}
+  - CategoryName: coat
+    CategoryImage: {fileID: 21300000, guid: 93738c454a3932b4c9283a65d08b2ca0, type: 3}
+    OX: 
+    reactionPanel: {fileID: 194125758}
+  - CategoryName: computer_mouse
+    CategoryImage: {fileID: 21300000, guid: 2fba426817e188845adf748d3bbb6662, type: 3}
+    OX: 
+    reactionPanel: {fileID: 475294807}
+  - CategoryName: glasses
+    CategoryImage: {fileID: 21300000, guid: a9fb78a40becf2c4c9c31b649c9e329a, type: 3}
+    OX: 
+    reactionPanel: {fileID: 1472844637}
+  - CategoryName: headwear
+    CategoryImage: {fileID: 21300000, guid: 92e991befeedf3c4db76536cccde5113, type: 3}
+    OX: 
+    reactionPanel: {fileID: 420623111}
+  - CategoryName: pillow
+    CategoryImage: {fileID: 21300000, guid: b55da89a50a0dd742849ac6fd19e85e5, type: 3}
+    OX: 
+    reactionPanel: {fileID: 1378770913}
+  - CategoryName: table
+    CategoryImage: {fileID: 21300000, guid: 76fd709dd5587f3478d5346c78400c61, type: 3}
+    OX: 
+    reactionPanel: {fileID: 316948709}
+  - CategoryName: screen
+    CategoryImage: {fileID: 21300000, guid: 8460d9638b1a6e347bf67adf7c5ba7e3, type: 3}
+    OX: 
+    reactionPanel: {fileID: 829135347}
+  - CategoryName: computer_keyboard
+    CategoryImage: {fileID: 21300000, guid: afbc9c36b4fa7c143a32e10a513502c3, type: 3}
+    OX: 
+    reactionPanel: {fileID: 523657695}
+  - CategoryName: window
+    CategoryImage: {fileID: 21300000, guid: de93d3357b9a97042ae67d76bb5c28a4, type: 3}
+    OX: 
+    reactionPanel: {fileID: 1911185620}
+  - CategoryName: footwear
+    CategoryImage: {fileID: 21300000, guid: 71fc519e572fa5d48abb90fd4b565a8a, type: 3}
+    OX: 
+    reactionPanel: {fileID: 425180499}
+  - CategoryName: shirt
+    CategoryImage: {fileID: 21300000, guid: 7c8afa702229b564899886db1670c6ff, type: 3}
+    OX: 
+    reactionPanel: {fileID: 1310922450}
+  - CategoryName: shorts
+    CategoryImage: {fileID: 21300000, guid: 8fa96209d4256c2459213ff9eb6e1a16, type: 3}
+    OX: 
+    reactionPanel: {fileID: 865432435}
+  - CategoryName: suit
+    CategoryImage: {fileID: 21300000, guid: c5d6c43baa3c24a42a6ad01470286dfb, type: 3}
+    OX: 
+    reactionPanel: {fileID: 1178664165}
+  - CategoryName: tie
+    CategoryImage: {fileID: 21300000, guid: 6c859b3ed9ed9dd45b5b6775b0a8bff8, type: 3}
+    OX: 
+    reactionPanel: {fileID: 631642136}
+  - CategoryName: guitar
+    CategoryImage: {fileID: 21300000, guid: 864d55e48cc048b47a38f20031123517, type: 3}
+    OX: 
+    reactionPanel: {fileID: 896826749}
+  - CategoryName: refrigerator
+    CategoryImage: {fileID: 21300000, guid: 0f1009c623ccde54bb6a2f72a125fb2e, type: 3}
+    OX: 
+    reactionPanel: {fileID: 2135481117}
+  - CategoryName: microphone
+    CategoryImage: {fileID: 21300000, guid: be771308f30f45242be7e8fcfe7760a4, type: 3}
+    OX: 
+    reactionPanel: {fileID: 1172377883}
   _objectChoice: 0
-  _itemButtonPanel: {fileID: 0}
-  _findMePanel: {fileID: 0}
-  _FindMeImage: {fileID: 0}
-  _objectButtonHolder: {fileID: 0}
+  _itemButtonPanel: {fileID: 81379391}
+  _findMePanel: {fileID: 1664846918}
+  _FindMeImage: {fileID: 1457936743}
+  _objectButtonHolder: {fileID: 498449471}
   _objectButtons: []
   _gameType: 0
-  _Transparent: {fileID: 0}
-  _Ink: {fileID: 0}
-  _O: {fileID: 0}
-  _X: {fileID: 0}
+  _Transparent: {fileID: 21300000, guid: 88f2cfc472bd60c4d8a7795bb544163d, type: 3}
+  _Ink: {fileID: 21300000, guid: 32e2bc2d26c146040b6ba2675ba10633, type: 3}
+  _O: {fileID: 21300000, guid: 6d450e2af2a6552469879634232b4b4c, type: 3}
+  _X: {fileID: 21300000, guid: e23925a0cf7006f40b3a97deba957f12, type: 3}
 --- !u!114 &1813937148
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19459,28 +19531,26 @@ MonoBehaviour:
   _drawRect: {fileID: 1772111550}
   _canvas: {fileID: 0}
   _objectManagementScript: {fileID: 1813937147}
-  _categoryNames:
-  - null
+  _categoryNames: []
   _categoryNamesAll:
-  - window
   - backpack
-  - clothing
   - coat
-  - footwear
+  - computer_mouse
   - glasses
   - headwear
+  - pillow
+  - table
+  - screen
+  - computer_keyboard
+  - window
+  - footwear
   - shirt
   - shorts
   - suit
   - tie
   - guitar
-  - table
   - refrigerator
-  - screen
-  - computer_keyboard
-  - computer_mouse
   - microphone
-  - pillow
   _drawUI: {fileID: 1813937148}
   ProcessOnOff: 1
 --- !u!114 &1813937150
