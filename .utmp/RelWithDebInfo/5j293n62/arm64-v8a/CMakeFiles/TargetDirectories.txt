@@ -1,0 +1,5 @@
+E:/CrossTech2/P2/p2.template.0/p2.template.0/Project2/.utmp/RelWithDebInfo/5j293n62/arm64-v8a/CMakeFiles/edit_cache.dir
+E:/CrossTech2/P2/p2.template.0/p2.template.0/Project2/.utmp/RelWithDebInfo/5j293n62/arm64-v8a/CMakeFiles/rebuild_cache.dir
+E:/CrossTech2/P2/p2.template.0/p2.template.0/Project2/.utmp/RelWithDebInfo/5j293n62/arm64-v8a/FramePacing/CMakeFiles/swappywrapper.dir
+E:/CrossTech2/P2/p2.template.0/p2.template.0/Project2/.utmp/RelWithDebInfo/5j293n62/arm64-v8a/FramePacing/CMakeFiles/edit_cache.dir
+E:/CrossTech2/P2/p2.template.0/p2.template.0/Project2/.utmp/RelWithDebInfo/5j293n62/arm64-v8a/FramePacing/CMakeFiles/rebuild_cache.dir
